@@ -17,8 +17,8 @@ body {
 }
 
 h1 {
-    font-size: 24px;
-    margin-bottom: 40px;
+    padding: 25px 0px ;
+    font-size: 24px
     text-align: center;
     color: #495057;
 }
@@ -182,7 +182,7 @@ background-color: #000
 
 .all-center {
 display: flex;
-align-items: center;
+align-items: top;
 justify-content: center;
 }
 
