@@ -4,12 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/f0.ico?v=2" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
-    <!-- <link rel="stylesheet" href="style.css"> -->
-    <!-- <link rel="stylesheet" href="comment.js"> -->
-
     <title>Comment Editor</title>
     <style>
         .notification {
@@ -176,64 +173,74 @@ li {
 
     <script>
         let originalComments = [
-            "244 1h",
-            "Lấy chị 1 chai 244 ",
-            "2 chai 244 ***********",
-            "3 chai 244 cho chị ************",
-            " lấy 1 chai 244 cho em ***********",
-            " 244/ 0983737*****",
-            "09********/244 chai",
-            "09********* 2h/244",
-            "Cô mua 244h 1 chai ************",
-            " ************ 244",
-            " 244 dồn đơn ************",
-            " dồn đơn 244 *************",
-            "Cô chốt 1 chai 244 nha Thu",
-            "Anh 1 chai 244 nha Thu",
-            "C cần mã 244, 1 chai nha em",
-            "Anh lấy mã 244, 1 chai nha",
-            "Anh cần 1 chai mã 244 nhé Thu",
-            "Thu ơi, chốt giùm E 1 chai 244",
-            "244 /3h",
-            "244 3/chai",
-            "244 1 chai nha e",
-            "Cô cần 1 chai mã 244 nha em",
-            "Mình lấy chai 244 nha bạn",
-            "244 2h sdt ",
-            "Thu, lấy cho chị 1 chai 244",
-            "E ơi, chốt mã 244 cho C, 1 chai",
-            "Cho cho co 244 ",
-            "Cho cô 244 1 chai",
-            "cho chị 1 chai mã 244",
-            "244 1 chai",
-            "lấy luôn cho e mã 244",
-            "mã 244 1 chai",
-            "mã 244",
-            "Mã 244",
-            "cho chị 244",
-            "lấy chị 244",
-            "cho chị mã 244 ",
-            "chốt chị mã 244 ",
-            "chị mua 244 nhé",
-            "cho cô mã 244 ",
-            "cho dì mã 244 ",
-            "chế lấy 244 3chai",
-            "bác muốn mua mã 244 5 chai",
-            "cô mua thêm 244 4chai nha con",
-            " 244 shop ơi",
-            "mua hàng nhà chị nhiều quá rồi mà ưng lắm lấy e thêm mã 244 nha",
-            "chốt chị mã 244 ",
-            "cho chị 1 chai mã 244",
-            "244 1 bộ",
-            "lấy luôn cho e mã 244",
-            "mã 244 1 chai",
-            "nhà em xài hoài luôn, lấy e 244  thêm nha ",
-            "lấy anh 244",
-            "cho chị mã 244 ",
-            "chốt chị mã 244 ",
-            "em mua 244 nhé",
-            " 244 shop ơi",
-            "1 mã 244 nhé shop",
+            "-mã đơn- 1-đơn vị- ",
+            "-mã đơn- 2-đơn vị- 093837273",
+            "2-đơn vị- 093837273",
+            "cho e 2-đơn vị- -mã đơn- 037872372",
+            "cho cô -mã đơn-  2-đơn vị-  03**********",
+            "cô lấy -mã đơn-  4-đơn vị-  07**********",
+            "cô mua thêm -mã đơn-  2-đơn vị-  07**********",
+            "cô dồn đơn cũ với -mã đơn-  2-đơn vị-  07**********",    
+            
+            
+            
+            "Lấy chị 1 -đơn vị- -mã đơn- ",
+            "2 -đơn vị- -mã đơn- ***********",
+            "3 -đơn vị- -mã đơn- cho chị ************",
+            " lấy 1 -đơn vị- -mã đơn- cho em ***********",
+            " -mã đơn-/ 0983737*****",
+            "09********/-mã đơn- -đơn vị-",
+            "09********* 2-đơn vị-/-mã đơn-",
+            "Cô mua -mã đơn-h 1 -đơn vị- ************",
+            " ************ -mã đơn-",
+            " -mã đơn- dồn đơn ************",
+            " dồn đơn -mã đơn- *************",
+            "Cô chốt 1 -đơn vị- -mã đơn- nha Thu",
+            "Anh 1 -đơn vị- -mã đơn- nha Thu",
+            "C cần mã -mã đơn-, 1 -đơn vị- nha em",
+            "Anh lấy mã -mã đơn-, 1 -đơn vị- nha",
+            "Anh cần 1 -đơn vị- mã -mã đơn- nhé Thu",
+            "Thu ơi, chốt giùm E 1 -đơn vị- -mã đơn-",
+            "-mã đơn- /3-mã đơn-",
+            "-mã đơn- 3/-đơn vị-",
+            "-mã đơn- 1 -đơn vị- nha e",
+            "Cô cần 1 -đơn vị- mã -mã đơn- nha em",
+            "Mình lấy -đơn vị- -mã đơn- nha bạn ***********",
+            "-mã đơn- 2-đơn vị- sdt ***********",
+            "Thu, lấy cho chị 1 -đơn vị- -mã đơn-",
+            "E ơi, chốt mã -mã đơn- cho C, 1 -đơn vị-",
+            "Cho co -mã đơn- sdt ***********",
+            "Cho cô -mã đơn- 1 -đơn vị-",
+            "cho chị 1 -đơn vị- mã -mã đơn-",
+            "-mã đơn- 1 -đơn vị-",
+            "lấy luôn cho e mã -mã đơn-",
+            "mã -mã đơn- 1 -đơn vị-",
+            "mã -mã đơn- sđt ***********",
+            "Mã -mã đơn- -đơn vị- Sđt ***********",
+            "cho chị -mã đơn-",
+            "lấy chị -mã đơn-",
+            "cho chị mã -mã đơn- ",
+            "chốt chị mã -mã đơn- ",
+            "chị mua -mã đơn- nhé",
+            "cho cô mã -mã đơn- ",
+            "cho dì mã -mã đơn- ",
+            "chế lấy -mã đơn- 3-đơn vị-",
+            "bác muốn mua mã -mã đơn- 5 -đơn vị-",
+            "cô mua thêm -mã đơn- 4-đơn vị- nha con",
+            " -mã đơn- shop ơi",
+            "mua hàng nhà chị nhiều quá rồi mà ưng lắm lấy e thêm mã -mã đơn- nha",
+            "chốt chị mã -mã đơn- ",
+            "cho chị 1 -đơn vị- mã -mã đơn-",
+            "-mã đơn- 1 -mã đơn- *************",
+            "lấy luôn cho e mã -mã đơn-",
+            "mã -mã đơn- 1 -đơn vị-",
+            "nhà em xài hoài luôn, lấy e -mã đơn-  thêm nha ",
+            "lấy anh -mã đơn- -mã đơn-",
+            "cho chị mã -mã đơn- ",
+            "chốt chị mã-mã đơn- sdt ************** ",
+            "em mua -mã đơn- nhé",
+            " -mã đơn- shop ơi",
+            "1 mã -mã đơn- nhé shop",
         ];
 
         let comments = [...originalComments];
@@ -242,8 +249,8 @@ li {
             const newCode = document.getElementById('newCode').value;
             const newUnit = document.getElementById('newUnit').value || "chai";
             comments = originalComments.map(comment => comment
-                .replace(/244/g, newCode)
-                .replace(/chai/g, newUnit));
+                .replace(/-mã đơn-/g, newCode)
+                .replace(/-đơn vị-/g, newUnit));
             displayComments();
             copyCommentsToClipboard();
             showNotification("Submit", "green-100", "green-500", "green");
