@@ -1,13 +1,13 @@
 
 let originalComments = [
-    "-mã đơn- 1-đơn vị- ",
-    "-mã đơn- 2-đơn vị- 09383727****",
-    "2-đơn vị- 093837273",
-    "cho e 2-đơn vị- -mã đơn- 037872*****",
+    "-mã đơn- 1 -đơn vị- ",
+    "-mã đơn- 2 -đơn vị- 09383727****",
+    "2 -đơn vị- 093837***",
+    "cho e 2-đơn vị- -mã đơn- 0378*****",
     "cho cô -mã đơn-  2-đơn vị-  03**********",
-    "cô lấy -mã đơn-  4-đơn vị-  07**********",
-    "cô mua thêm -mã đơn-  2-đơn vị-  07**********",
-    "cô dồn đơn cũ với -mã đơn-  2-đơn vị-  07**********",    
+    "cô lấy -mã đơn-  4-đơn vị-  07*********",
+    "cô mua thêm -mã đơn- 2 -đơn vị-  07*********",
+    "cô dồn đơn cũ với -mã đơn-  2 -đơn vị-  09********",    
     
     
     
@@ -21,7 +21,7 @@ let originalComments = [
     "Cô mua -mã đơn-h 1 -đơn vị- ************",
     " ************ -mã đơn-",
     " -mã đơn- dồn đơn ************",
-    " dồn đơn -mã đơn- *************",
+    " dồn đơn -mã đơn- ************",
     "Cô chốt 1 -đơn vị- -mã đơn- nha Thu",
     "Anh 1 -đơn vị- -mã đơn- nha Thu",
     "C cần mã -mã đơn-, 1 -đơn vị- nha em",
@@ -64,7 +64,7 @@ let originalComments = [
     "nhà em xài hoài luôn, lấy e -mã đơn-  thêm nha ",
     "lấy anh -mã đơn- -mã đơn-",
     "cho chị mã -mã đơn- ",
-    "chốt chị mã-mã đơn- sdt ************** ",
+    "chốt chị mã-mã đơn- sdt ************* ",
     "em mua -mã đơn- nhé",
     " -mã đơn- shop ơi",
     "1 mã -mã đơn- nhé shop",
