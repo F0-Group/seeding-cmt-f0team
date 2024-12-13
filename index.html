@@ -4,13 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <link rel="icon" href="asset/f0.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="asset/f0.ico">
-
+    <link rel="icon" href="/f0.ico?v=2" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
-    <title>F0-Seeding</title>
-    <style>
+    <title>Comment Editor</title>
+    <script src="/asset/style.js"></script>
+    <script src="/asset/feedback.js"></script>
+    <script src="/asset/feedback.js"></script>
+
+
+    <link rel="stylesheet" href="/asset/comment.css">
+    <!-- <style>
         .notification {
             z-index: 9999;
             animation: fadeOut 1s ease-in-out forwards;
@@ -32,7 +36,7 @@
 
 .list-comments {
     width: 40%;
-    height: 500px;
+    height: 400px;
     padding: 20px 40px;
     overflow-x: auto;
     background: #fff;
@@ -44,12 +48,12 @@
 }
 
 .list-comments::-webkit-scrollbar-thumb {
-    background-color: #d7d7d7;
+    background-color: #2d2a2a;
     border-radius: 3px;
 }
 
 .list-comments::-webkit-scrollbar-thumb:hover {
-    background-color: #c1c1c1;
+    background-color: #383030;
 }
 
 .list-comments::-webkit-scrollbar-track {
@@ -136,7 +140,7 @@ li {
                 opacity: 0;
             }
         }
-    </style>
+    </style> -->
 </head>
 
 <body>
@@ -144,13 +148,17 @@ li {
     <div class="comment-container all-center w-full h-full">
         <div class="flex flex-col gap-[1vw] w-[30vw]">
             <div>
-                <label for="newCode" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Thay đổi mã:</label>
-                <input type="text" id="newCode" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                <label for="newCode" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Thay đổi
+                    mã:</label>
+                <input type="text" id="newCode"
+                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                     placeholder="mã mới" required>
             </div>
             <div>
-                <label for="newUnit" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Thay đổi đơn vị:</label>
-                <input type="text" id="newUnit" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-green-500 dark:focus:border-green-500"
+                <label for="newUnit" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Thay đổi đơn
+                    vị:</label>
+                <input type="text" id="newUnit"
+                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-green-500 dark:focus:border-green-500"
                     placeholder="đơn vị" required>
             </div>
             <div class="flex gap-3">
@@ -160,158 +168,107 @@ li {
                 <button onclick="refreshComments()" class="btn-refresh">
                     <i class="fas fa-sync-alt text-white-500 text-xl"></i>
                 </button>
-                
+
                 <button onclick="copyAllComments()" class="btn-copy">
                     <i class="fas fa-copy text-white-500 text-xl"></i>
                 </button>
-                
+
             </div>
         </div>
         <div class="list-comments">
+            <h3>chốt mã đơn:</h3>
+
             <ul id="commentsList">
             </ul>
         </div>
     </div>
+    <!-- -------------comment khen -->
 
-    <script>
-        let originalComments = [
-            "-mã đơn- 1-đơn vị- ",
-            "-mã đơn- 2-đơn vị- 093837273",
-            "2-đơn vị- 093837273",
-            "cho e 2-đơn vị- -mã đơn- 037872372",
-            "cho cô -mã đơn-  2-đơn vị-  03**********",
-            "cô lấy -mã đơn-  4-đơn vị-  07**********",
-            "cô mua thêm -mã đơn-  2-đơn vị-  07**********",
-            "cô dồn đơn cũ với -mã đơn-  2-đơn vị-  07**********",    
-            
-            
-            
-            "Lấy chị 1 -đơn vị- -mã đơn- ",
-            "2 -đơn vị- -mã đơn- ***********",
-            "3 -đơn vị- -mã đơn- cho chị ************",
-            " lấy 1 -đơn vị- -mã đơn- cho em ***********",
-            " -mã đơn-/ 0983737*****",
-            "09********/-mã đơn- -đơn vị-",
-            "09********* 2-đơn vị-/-mã đơn-",
-            "Cô mua -mã đơn-h 1 -đơn vị- ************",
-            " ************ -mã đơn-",
-            " -mã đơn- dồn đơn ************",
-            " dồn đơn -mã đơn- *************",
-            "Cô chốt 1 -đơn vị- -mã đơn- nha Thu",
-            "Anh 1 -đơn vị- -mã đơn- nha Thu",
-            "C cần mã -mã đơn-, 1 -đơn vị- nha em",
-            "Anh lấy mã -mã đơn-, 1 -đơn vị- nha",
-            "Anh cần 1 -đơn vị- mã -mã đơn- nhé Thu",
-            "Thu ơi, chốt giùm E 1 -đơn vị- -mã đơn-",
-            "-mã đơn- /3-mã đơn-",
-            "-mã đơn- 3/-đơn vị-",
-            "-mã đơn- 1 -đơn vị- nha e",
-            "Cô cần 1 -đơn vị- mã -mã đơn- nha em",
-            "Mình lấy -đơn vị- -mã đơn- nha bạn ***********",
-            "-mã đơn- 2-đơn vị- sdt ***********",
-            "Thu, lấy cho chị 1 -đơn vị- -mã đơn-",
-            "E ơi, chốt mã -mã đơn- cho C, 1 -đơn vị-",
-            "Cho co -mã đơn- sdt ***********",
-            "Cho cô -mã đơn- 1 -đơn vị-",
-            "cho chị 1 -đơn vị- mã -mã đơn-",
-            "-mã đơn- 1 -đơn vị-",
-            "lấy luôn cho e mã -mã đơn-",
-            "mã -mã đơn- 1 -đơn vị-",
-            "mã -mã đơn- sđt ***********",
-            "Mã -mã đơn- -đơn vị- Sđt ***********",
-            "cho chị -mã đơn-",
-            "lấy chị -mã đơn-",
-            "cho chị mã -mã đơn- ",
-            "chốt chị mã -mã đơn- ",
-            "chị mua -mã đơn- nhé",
-            "cho cô mã -mã đơn- ",
-            "cho dì mã -mã đơn- ",
-            "chế lấy -mã đơn- 3-đơn vị-",
-            "bác muốn mua mã -mã đơn- 5 -đơn vị-",
-            "cô mua thêm -mã đơn- 4-đơn vị- nha con",
-            " -mã đơn- shop ơi",
-            "mua hàng nhà chị nhiều quá rồi mà ưng lắm lấy e thêm mã -mã đơn- nha",
-            "chốt chị mã -mã đơn- ",
-            "cho chị 1 -đơn vị- mã -mã đơn-",
-            "-mã đơn- 1 -mã đơn- *************",
-            "lấy luôn cho e mã -mã đơn-",
-            "mã -mã đơn- 1 -đơn vị-",
-            "nhà em xài hoài luôn, lấy e -mã đơn-  thêm nha ",
-            "lấy anh -mã đơn- -mã đơn-",
-            "cho chị mã -mã đơn- ",
-            "chốt chị mã-mã đơn- sdt ************** ",
-            "em mua -mã đơn- nhé",
-            " -mã đơn- shop ơi",
-            "1 mã -mã đơn- nhé shop",
-        ];
-
-        let comments = [...originalComments];
-
-        function updateAndCopyComments() {
-            const newCode = document.getElementById('newCode').value;
-            const newUnit = document.getElementById('newUnit').value || "chai";
-            comments = originalComments.map(comment => comment
-                .replace(/-mã đơn-/g, newCode)
-                .replace(/-đơn vị-/g, newUnit));
-            displayComments();
-            copyCommentsToClipboard();
-            showNotification("Submit", "green-100", "green-500", "green");
-        }
-
-        function refreshComments() {
-            document.getElementById('newCode').value = '';
-            document.getElementById('newUnit').value = '';
-            comments = [...originalComments];
-            displayComments();
-            showNotification("Refresh", "blue-100", "blue-500", "blue");
-        }
-
-        function copyAllComments() {
-            copyCommentsToClipboard();
-            showNotification("Copy All Comments", "orange-100", "orange-500", "orange");
-        }
-
-        function showNotification(message, background, border, color) {
-            const notification = document.createElement('div');
-            notification.innerHTML = `
-            <div class="py-6 absolute top-[100px] notification">
-                <div class="bg-${background} w-[400px] border-t-4 border-${border} rounded-b text-${color}-900 px-4 py-3 shadow-md" role="alert">
-                    <div class="flex">
-                        <div class="py-1"><svg class="fill-current h-6 w-6 text-${color}-500 mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z"/></svg></div>
-                        <div>
-                            <p class="font-bold text-${color}-500 text-base">${message}</p>
-                            <p class="text-sm text-${color}-500 font-semibold">Make sure you know how these changes affect you.</p>
-                        </div>
-                    </div>
-                </div>
+    <div class="comment-container all-center w-full h-full">
+        <div class="flex flex-col gap-[1vw] w-[30vw]">
+            <div class="form-group ">
+                <label for="productName" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Tên sản
+                    phẩm:</label>
+                <input type="text" id="productName"
+                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 
+                    dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    placeholder="Nhập tên sản phẩm" oninput="showSuggestions()" list="productSuggestions">
+                <datalist id="productSuggestions">
+                    <!-- Gợi ý sẽ được thêm tự động -->
+                </datalist>
             </div>
-        `;
-            document.body.appendChild(notification);
 
-            setTimeout(() => {
-                document.body.removeChild(notification);
-            }, 1000);
-        }
+            <div class="form-group">
+                <label for="category" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Thể
+                    loại:</label>
+                <select
+                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500
+                     focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 
+                     dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    id="category">
+                    <option value="">-- Chọn thể loại --</option>
+                    <option value="an-uong">Ăn uống</option>
+                    <option value="ao">Áo</option>
+                    <option value="sua">Về sữa </option>
+                    <option value="thuoc-men">Thuốc men</option>
+                    <option value="lan-da">Làn da</option>
+                    <option value="quan">Quần</option>
+                    <option value="dau-goi">Dầu gội - Kem xả</option>
+                    <option value="am-sieu-toc">Ấm siêu tốc</option>
+                    <option value="noi-com">Nồi cơm</option>
+                    <option value="noi-chien-khong-dau">Nồi chiên không dầu</option>
+                    <option value="cai-thien-suc-khoe">Cải thiện sức khỏe</option>
 
-        function displayComments() {
-            const commentsList = document.getElementById('commentsList');
-            commentsList.innerHTML = '';
-            comments.forEach(comment => {
-                const li = document.createElement('li');
-                li.textContent = comment;
-                commentsList.appendChild(li);
-            });
-        }
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="commentCount" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Số lượng
+                    phản hồi:</label>
+                <select
+                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500
+                     focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 
+                     dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    id="commentCount">
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="100">Tất cả</option>
+                </select>
+            </div>
+            <div class="controls flex gap-3 ">
+                <button class="btn-submit" onclick="generateFeedback()">
+                    <i class="fas fa-paper-plane text-white-500 text-xl"></i>
+                </button>
+                <button class="btn-refresh" onclick="refreshPage()">
+                    <i class="fas fa-sync-alt text-white-500 text-xl"></i>
+                </button>
+                <button class="btn-copy" onclick="copyFeedback()">
+                    <i class="fas fa-copy text-white-500 text-xl"></i>
+                </button>
+            </div>
+        </div>
 
-        function copyCommentsToClipboard() {
-            const commentsText = comments.join('\n');
-            navigator.clipboard.writeText(commentsText)
-                .then(() => console.log('Comments copied to clipboard'))
-                .catch(err => console.error('Unable to copy comments to clipboard', err));
-        }
+        <!-- danh sách commnet khen -->
 
-        displayComments();
-    </script>
+        <!-- Right Section -->
+
+        <div class="feedback-list">
+            <h3>Khen sản phẩm:</h3>
+            <ul id="feedbackList">
+                <!-- Các phần tử phản hồi sẽ được thêm vào đây bằng JavaScript -->
+            </ul>
+        </div>
+      
+    </div>
+    </div>
+
+
 </body>
 
 </html>
