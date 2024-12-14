@@ -207,7 +207,18 @@ h3 {
         padding: 8px;
 
     }
+        .boxer {
+        width: 15px;
+        height: 80px;
 
+        font-family: 'Roboto Mono', monospace;
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
     .comment-container {
         margin-bottom: 20px;
     }
@@ -224,6 +235,18 @@ h3 {
         /* Giảm chiều cao tối đa nữa cho màn hình nhỏ */
         padding: 5px;
         /* Giảm padding thêm */
+    }
+        .boxer {
+        width: 15px;
+        height: 80px;
+
+        font-family: 'Roboto Mono', monospace;
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
 
     .feedback-list {
