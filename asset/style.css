@@ -1,0 +1,28 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
+@mixin flex-properties{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper{
+  @include flex-properties;
+}
+.space{
+    padding-right: 10px;
+}
+.boxer{
+font-family: 'Roboto Mono', monospace;
+font-size: 100px;
+font-weight:700;
+color:rgb(236, 246, 255);
+
+
+@include flex-properties;
+}
+.click{
+  font-size: 100px;
+font-weight:700;
+  color:rgb(236, 246, 255);
+  @include flex-properties;
+}
