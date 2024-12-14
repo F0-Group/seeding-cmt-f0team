@@ -4,40 +4,116 @@
 <head>
     <meta charset="UTF-8">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <link rel="icon" href="asset/f0.ico" type="image/x-icon">
+    <link rel="icon" href="/asset/f0.ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
     <title>Comment Editor</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
     <script src="asset/style.js"></script>
     <script src="asset/feedback.js"></script>
     <script src="asset/feedback.js"></script>
+    <script src="/asset/render.js"></script>
 
+    <link rel="stylesheet" href="/asset/comment.css"> 
+    <link rel="stylesheet" href="/asset/style.css"> 
 
-    <link rel="stylesheet" href="/asset/comment.css">
+    <style>
+        /* Basic Styles for Boxers */
+        .box-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .boxer {
+            width: 30px;
+            height: 80px;
+
+            font-family: 'Roboto Mono', monospace;
+            font-size: 50px;
+            color: rgb(255, 255, 255);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .space {
+            width: 30px;
+            height: 30px;
+        }
+        .click {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        .ani-button {
+
+        }
+    </style>
+    
 </head>
 
 <body>
-    <h1 class="text-4xl font-bold pt-10 pl-10 dark:text-white" style="user-select: none;">Comment seeding live ☣︎</h1>
+    <div style="user-select: none;"  class="box-container">
+        <span class="boxer"></span>
+        <span class="boxer"></span>
+        <span class="space"></span>
+        <span class="boxer"></span>
+        <span class="boxer"></span>
+        <span class="boxer"></span>
+        <span class="boxer"></span>
+        <span class="boxer"></span>
+        <span class="boxer"></span>
+        <span class="boxer"></span>
+        <span class="boxer"></span>
+        <span class="boxer"></span>
+        <span class="boxer"></span>
+      </div>
+    
+      <div class="click"></div>
+
+      
+    <!-- <h1 class="text-4xl font-bold pt-10 pl-10 dark:text-white">Comment seeding live ☣︎</h1> -->
     <div class="comment-container all-center w-full h-full">
         <div class="flex flex-col gap-[1vw] w-[30vw]">
+            <!-- <div>
+            <label for="newCode" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Thay đổi mã:</label>
+            <input type="text" id="newCode"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                placeholder="mã mới" onkeydown="moveFocus(event, 'newUnit')" required>
+            </div>
             <div>
-                <label for="newCode" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white" style="user-select: none;">Thay đổi
-                    mã:</label>
-                <input type="text" id="newCode"
+            <label for="newUnit" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Thay đổi đơn vị:</label>
+            <input type="text" id="newUnit"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-green-500 dark:focus:border-green-500"
+                placeholder="đơn vị" onkeydown="triggerSubmit(event)" required>
+            </div> -->
+            <div>
+                <label for="newCode" style="user-select: none;" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Thay đổi mã:</label>
+                <input type="text" id="newCode" style="user-select: none;"
                     class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                    placeholder="mã mới" required>
+                    placeholder="Mã mới" onkeydown="moveFocus(event, 'newUnit')" required>
             </div>
             <div>
-                <label for="newUnit" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white" style="user-select: none;">Thay đổi đơn
-                    vị:</label>
-                <input type="text" id="newUnit"
+                <label for="newUnit" style="user-select: none;" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Thay đổi đơn vị:</label>
+                <input type="text" id="newUnit" style="user-select: none;"
                     class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-green-500 dark:focus:border-green-500"
-                    placeholder="đơn vị" required>
+                    placeholder="Đơn vị" onkeydown="moveFocus(event, 'commentCount')" required>
             </div>
+            <div>
+                <label for="commentCount" style="user-select: none;"  class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Số lượng comment:</label>
+                <input type="number" id="commentCount" style="user-select: none;"
+                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-yellow-500 dark:focus:border-yellow-500"
+                    placeholder="Số lượng comment" min="1" max="100" onkeydown="triggerSubmit(event)" required>
+            </div>
+            
             <div class="flex gap-3">
                 <button onclick="updateAndCopyComments()" class="btn-submit">
                     <i class="fas fa-paper-plane text-white-500 text-xl"></i>
-                </button>
+                  </button>
                 <button onclick="refreshComments()" class="btn-refresh">
                     <i class="fas fa-sync-alt text-white-500 text-xl"></i>
                 </button>
@@ -49,6 +125,7 @@
             </div>
         </div>
         <div class="list-comments">
+
             <h3 style="user-select: none;">chốt mã đơn:</h3>
 
             <ul id="commentsList">
@@ -60,9 +137,9 @@
     <div class="comment-container all-center w-full h-full">
         <div class="flex flex-col gap-[1vw] w-[30vw]">
             <div class="form-group ">
-                <label for="productName" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white" style="user-select: none;">Tên sản
+                <label for="productName" style="user-select: none;" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Tên sản
                     phẩm:</label>
-                <input type="text" id="productName"
+                <input type="text" id="productName" style="user-select: none;"
                     class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 
                     dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                     placeholder="Nhập tên sản phẩm" oninput="showSuggestions()" list="productSuggestions">
@@ -72,9 +149,9 @@
             </div>
 
             <div class="form-group">
-                <label for="category" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white" style="user-select: none;">Thể
+                <label style="user-select: none;" for="category" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Thể
                     loại:</label>
-                <select
+                <select style="user-select: none;"
                     class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500
                      focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 
                      dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
@@ -95,24 +172,12 @@
                 </select>
             </div>
             <div class="form-group">
-                <label for="commentCount" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white" style="user-select: none;">Số lượng
-                    phản hồi:</label>
-                <select
+                <label style="user-select: none;" for="feedCount" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Số lượng comment:</label>
+                <input type="number" id="feedCount" style="user-select: none;"
                     class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500
                      focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 
                      dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                    id="commentCount">
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-                    <option value="8">8</option>
-                    <option value="9">9</option>
-                    <option value="10">10</option>
-                    <option value="100">Tất cả</option>
-                </select>
+                    placeholder="Nhập số lượng comment khen" onkeypress="checkEnter(event)"min="1" >
             </div>
             <div class="controls flex gap-3 ">
                 <button class="btn-submit" onclick="generateFeedback()">
@@ -132,8 +197,9 @@
         <!-- Right Section -->
 
         <div class="feedback-list">
-            <h3 style="user-select: none;">Khen sản phẩm:</h3>
+            <h3 style="user-select: none;"> Khen sản phẩm:</h3>
             <ul id="feedbackList">
+
                 <!-- Các phần tử phản hồi sẽ được thêm vào đây bằng JavaScript -->
             </ul>
         </div>
