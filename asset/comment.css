@@ -294,7 +294,7 @@ body {
     height: 400px;
     padding: 6px 6px;
     overflow-x: auto;
-    flex-wrap: nowrap;
+/*     flex-wrap: nowrap; */
     /* Đảm bảo các phần tử không xuống dòng */
     background: #fff;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.1), 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
