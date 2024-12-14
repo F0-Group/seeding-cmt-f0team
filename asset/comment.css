@@ -292,7 +292,7 @@ body {
 .list-comments {
     width: 40%;
     height: 400px;
-    padding: 20px 40px;
+    padding: 6px 6px;
     overflow-x: auto;
     flex-wrap: nowrap;
     /* Đảm bảo các phần tử không xuống dòng */
