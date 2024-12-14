@@ -110,7 +110,7 @@ button i {
     color: #495057;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
     transition: transform 0.2s, box-shadow 0.2s;
-    flex-wrap: nowrap;
+/*     flex-wrap: nowrap; */
     /* Đảm bảo các phần tử không xuống dòng */
 }
 
