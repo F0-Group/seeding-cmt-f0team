@@ -89,7 +89,7 @@ button i {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
     transition: transform 0.2s, box-shadow 0.2s;
 
-    white-space: nowrap;
+/*     white-space: nowrap; */
     /* Ngăn ngừa xuống dòng trong văn bản */
 
 }
