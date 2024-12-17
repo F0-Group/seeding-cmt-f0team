@@ -270,7 +270,8 @@ const categories = {
     ]
 };
 const productSuggestions = ["sữa hạt", "sữa khớp", "sữa bột", "nồi chiên không dầu", "nồi lẩu", "Nồi chiên không dầu", "quần tây", "quần thể thao", "quần kaki", "tinh dầu thông đỏ", "nấm linh chi",
-    "kem nmn", "kem c", "hắc sâm lát", " đông trùng hạ thảo", "táo đỏ", "bộ nồi cao cấp", "mặt nạ b5"
+    "kem nmn", "kem c", "hắc sâm lát", " đông trùng hạ thảo", "táo đỏ", "bộ nồi cao cấp", "mặt nạ b5", "nước sâm", " nước collagen ", " yến", " nước hồng sâm", 
+    " viên an cung ngưu", " tinh chất sâm", " sâm củi", "rong biển", " viên an cung ngưu", " viên hồng sâm"
 ];
 
 
@@ -347,7 +348,7 @@ function showSuggestions() {
            
         } else {
             // Hiển thị thông báo khi không tìm thấy gợi ý
-            showNotification("Không nhận dạng được sản phẩm", "yellow-100", "yellow-500", "yellow");
+            showNotification("Không có trong danh sách gợi ý", "yellow-100", "yellow-500", "yellow");
         }
     } else {
         // Hiển thị thông báo khi không có đầu vào
