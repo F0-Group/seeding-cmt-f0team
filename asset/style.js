@@ -1,22 +1,22 @@
 
 let originalComments = [
-    " -mã đơn- 1 -đơn vị- ",
-    " -mã đơn- 2 -đơn vị- 093837273",
+   " -mã đơn- 1 -đơn vị- -icon-",
+    " -mã đơn- 2 -đơn vị- 093837**** -icon- ",
     "2 -đơn vị- 093837273",
-    "cho e 2 -đơn vị- -mã đơn- 037872372",
+    "cho e 2 -đơn vị- -mã đơn- 037872**2 -icon-",
     "cho cô -mã đơn-  2 -đơn vị-  03**********",
     "cô lấy -mã đơn-  4 -đơn vị-  07**********",
     "cô mua thêm -mã đơn-  2 -đơn vị-  07**********",
     "cô dồn đơn cũ với -mã đơn-  2 -đơn vị-  07**********",    
-    "cho chị -mã đơn- 3 -đơn vị- ***********",
+    "cho chị -mã đơn- 3 -đơn vị- *********** -icon-",
     "chị đặt -mã đơn- 2 -đơn vị- 09*********",
     "a lấy -mã đơn- 5 -đơn vị- **********",
-    "cho em thêm -mã đơn- 1 -đơn vị- 08**********",
+    "cho em thêm -mã đơn- 1 -đơn vị- 08********** -icon-",
     "chị gom chung -mã đơn- 4 -đơn vị- ************",
     "lấy cho cô -mã đơn- 6 -đơn vị- 07********",
     "em chốt -mã đơn- 2 -đơn vị- ************",
     "chị mua -mã đơn- 1 -đơn vị- 09**********",
-    "bác lấy thêm -mã đơn- 3 -đơn vị- ***********",
+    "bác lấy thêm -mã đơn- 3 -đơn vị- *********** -icon-",
     "dồn giúp chị -mã đơn- 2 -đơn vị- 07**********",
     "chốt lại cho chị -mã đơn- 4-đơn vị- ***********",
     "em thêm vào -mã đơn- 3 -đơn vị- **********",
@@ -33,7 +33,7 @@ let originalComments = [
     "cho chị 3 -đơn vị- -mã đơn- ***********",
     "lấy -mã đơn- 6 -đơn vị- ***********",
     "gom lại -mã đơn- 4 -đơn vị- ************",
-    "lấy giúp chị -mã đơn- 3 -đơn vị- ***********",
+    "lấy giúp chị -mã đơn- 3 -đơn vị- *********** ",
     "cô lấy thêm -mã đơn- 2 -đơn vị- ************",
     "Bác đặt thêm -mã đơn- 7 -đơn vị- 08*********",
     "chị mua thêm -mã đơn- 1 -đơn vị- **********",
@@ -57,9 +57,20 @@ let originalComments = [
     "Anh lấy mã -mã đơn-, 1 -đơn vị- nha",
     "Anh cần 1 -đơn vị- mã -mã đơn- nhé Thu",
     "Thu ơi, chốt giùm E 1 -đơn vị- -mã đơn-",
-    "-mã đơn- /3-mã đơn-",
-    "-mã đơn- 3/-đơn vị-",
+    "-mã đơn- /3 -mã đơn- -icon-",
+    "-mã đơn- 3/ -đơn vị-",
     "-mã đơn- 1 -đơn vị- nha e",
+    "-icon-",
+    "-icon-",
+    "-icon-",
+    "-icon-",
+    "-icon-",
+    "-icon-",
+    "-icon-",
+    "-icon-",
+    "-icon-",
+  
+    "-icon-",
     "Cô cần 1 -đơn vị- mã -mã đơn- nha em",
     "Mình lấy -đơn vị- -mã đơn- nha bạn ***********",
     "-mã đơn- 2-đơn vị- sdt ***********",
@@ -68,7 +79,7 @@ let originalComments = [
     "Cho co -mã đơn- sdt ***********",
     "Cho cô -mã đơn- 1 -đơn vị-",
     "cho chị 1 -đơn vị- mã -mã đơn-",
-    "-mã đơn- 1 -đơn vị-",
+    "-mã đơn- 1 -đơn vị- nhé -icon-",
     "lấy luôn cho e mã -mã đơn-",
     "mã -mã đơn- 1 -đơn vị-",
     "mã -mã đơn- sđt ***********",
@@ -97,7 +108,77 @@ let originalComments = [
     "em mua -mã đơn- nhé",
     " -mã đơn- shop ơi",
     "1 mã -mã đơn- nhé shop",
+
+    "-icon-",
+    
+    
+    "Lấy chị 1 -đơn vị- -mã đơn-  -icon-",
+    "-icon-",
+    "2 -đơn vị- -mã đơn- *********** -icon-",
+    "3 -đơn vị- -mã đơn- cho chị ************",
+    " lấy 1 -đơn vị- -mã đơn- cho em ***********",
+    " -mã đơn-/ 0983737***** -icon-",
+    "09********/-mã đơn- -đơn vị- -icon-",
+    "09********* 2-đơn vị-/-mã đơn-",
+    "Cô mua -mã đơn-h 1 -đơn vị- ************",
+    " ************ -mã đơn-",
+    " -mã đơn- dồn đơn ************",
+    " dồn đơn -mã đơn- *************",
+    "Cô chốt 1 -đơn vị- -mã đơn- nha Thu",
+    "Anh 1 -đơn vị- -mã đơn- nha Thu",
+    "C cần mã -mã đơn-, 1 -đơn vị- nha em -icon-",
+    "Anh lấy mã -mã đơn-, 1 -đơn vị- nha -icon-",
+    "-icon-",
+    "Anh cần 1 -đơn vị- mã -mã đơn- nhé Thu -icon-",
+    "Thu ơi, chốt giùm E 1 -đơn vị- -mã đơn- -icon-",
+    "-mã đơn- /3-mã đơn-",
+    "-mã đơn- 3/-đơn vị-",
+    "-mã đơn- 1 -đơn vị- nha e",
+    "Cô cần 1 -đơn vị- mã -mã đơn- nha em",
+    "Mình lấy -đơn vị- -mã đơn- nha bạn ***********",
+    "-mã đơn- 2-đơn vị- sdt ***********",
+    "Thu, lấy cho chị 1 -đơn vị- -mã đơn-",
+    "E ơi, chốt mã -mã đơn- cho C, 1 -đơn vị-",
+    "Cho co -mã đơn- sdt ***********",
+    "Cho cô -mã đơn- 1 -đơn vị-",
+    "cho chị 1 -đơn vị- mã -mã đơn-",
+    "-icon-", "-icon-",
+    "-mã đơn- 1 -đơn vị-",
+    "lấy luôn cho e mã -mã đơn-",
+    "mã -mã đơn- 1 -đơn vị- -icon-",
+    "mã -mã đơn- sđt ***********",
+    "Mã -mã đơn- -đơn vị- Sđt ***********",
+    "cho chị -mã đơn-", "-icon-",
+    "lấy chị -mã đơn-",
+    "-icon-", "-icon-",
+    "cho chị mã -mã đơn- ",
+    "chốt chị mã -mã đơn- ", "-icon-",
+    "chị mua -mã đơn- nhé", "-icon-",
+    "cho cô mã -mã đơn- ", "-icon-",
+    "cho dì mã -mã đơn- ",
+    "chế lấy -mã đơn- 3-đơn vị-",
+    "bác muốn mua mã -mã đơn- 5 -đơn vị-",
+    "-icon-",
+    "cô mua thêm -mã đơn- 4-đơn vị- nha con",
+    " -mã đơn- shop ơi",
+    "mua hàng nhà chị nhiều quá rồi mà ưng lắm lấy e thêm mã -mã đơn- nha",
+    "chốt chị mã -mã đơn- ",
+    "cho chị 1 -đơn vị- mã -mã đơn- -icon-",
+    "-mã đơn- 1 -mã đơn- *************",
+    "lấy luôn cho e mã -mã đơn- -icon- ",
+    "-icon-",
+    "mã -mã đơn- 1 -đơn vị-",
+    "nhà em xài hoài luôn, lấy e -mã đơn-  thêm nha ",
+    "lấy anh -mã đơn- -mã đơn-",
+    "cho chị mã -mã đơn- -icon-",
+    "-icon-",
+    "chốt chị mã-mã đơn- sdt **************  -icon-",
+    "em mua -mã đơn- nhé -icon-" ,
+    " -mã đơn- shop ơi -icon-",
+    "-icon-",
+    "1 mã -mã đơn- nhé shop",
 ];
+const icons = ["🌹", "👏", "💐", "🌟", "🎉", "✨", "❤️"];
 
 // let comments = [...originalComments];
 
@@ -221,13 +302,51 @@ let originalComments = [
 // displayComments();
 let comments = [...originalComments];
 
+// function updateAndCopyComments() {
+//     // Cập nhật và sao chép các comment
+//     const newCode = document.getElementById('newCode').value;
+//     const newUnit = document.getElementById('newUnit').value || "chai";
+//     comments = originalComments.map(comment => comment
+//         .replace(/-mã đơn-/g, newCode)
+//         .replace(/-đơn vị-/g, newUnit));
+    
+//     // Hiển thị danh sách comment mới
+//     displayComments();
+
+//     // Sao chép toàn bộ comment mới
+//     const updatedText = comments.join('\n');
+//     navigator.clipboard.writeText(updatedText)
+//         .then(() => {
+//             showNotification("Comments updated and copied to clipboard!", "green-100", "green-500", "green");
+//         })
+//         .catch(err => {
+//             console.error("Failed to copy comments:", err);
+//             showNotification("Failed to copy comments", "red-100", "red-500", "red");
+//         });
+// }
+
 function updateAndCopyComments() {
     // Cập nhật và sao chép các comment
     const newCode = document.getElementById('newCode').value;
     const newUnit = document.getElementById('newUnit').value || "chai";
-    comments = originalComments.map(comment => comment
-        .replace(/-mã đơn-/g, newCode)
-        .replace(/-đơn vị-/g, newUnit));
+
+    // Danh sách icon
+    const icons = ["🌹", "👏", "💐", "🌟", "🎉", "✨", "❤️"];
+
+    comments = originalComments.map(comment => {
+        // Thay thế -mã đơn- và -đơn vị-
+        let updatedComment = comment
+            .replace(/-mã đơn-/g, newCode)
+            .replace(/-đơn vị-/g, newUnit);
+        
+        // Thay thế -icon- bằng một icon ngẫu nhiên
+        if (updatedComment.includes("-icon-")) {
+            const randomIcon = icons[Math.floor(Math.random() * icons.length)];
+            updatedComment = updatedComment.replace(/-icon-/g, randomIcon);
+        }
+
+        return updatedComment;
+    });
     
     // Hiển thị danh sách comment mới
     displayComments();
