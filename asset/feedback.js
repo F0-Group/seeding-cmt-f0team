@@ -1,5 +1,47 @@
 
 const categories = {
+    "hoi-san-pham":[
+        "còn [A] không chị",
+       " còn [A]  không Thu ơi",
+        "Thu ơi, lên [Al đi em ",
+        "chị muốn mua [A] còn hàng không em",
+           " [A] còn không em ơi?",
+           " Lên [A] cho chị nhé Thu!",
+           " Em kiểm tra giúp chị, [A] còn hàng không?",
+            "Thu ơi, [A] hết rồi hả em?",
+            "[A] còn ship hôm nay được không Thu?",
+            "Chị đặt [A] luôn, em có không?",
+           " Thu, báo chị liền nha, còn [A] không?",
+           " Chị qua lấy [A], có không em?",
+           " Thu, giữ cho chị [A] nha!",
+           " Em còn [A] không, chị cần gấp.",
+           " [A] lên hàng chưa Thu?",
+           " Thu ơi, cho chị biết còn [A] không?",
+           " [A] mới về phải không Thu?",
+           " Em còn [A] size này không?",
+           " Lên [A] đi Thu, chị muốn lấy.",
+           " Hôm nay chị qua, còn [A] không em?",
+           " [A] hết hàng rồi hay sao Thu? ",
+           " Em kiểm tra nhanh, còn [A] không? ",
+           " Chị lấy [A], em chốt giúp chị nha.",
+           " Thu ơi, hôm nay ship [A] kịp không?",
+           " [A] đẹp thế này, còn hàng không em?",
+           " Thu báo liền, còn [A] không em?",
+           " Chị đặt 2 cái [A], có không em?",
+           " Hôm qua chị thấy [A], nay hết rồi?",
+           " [A] còn size này không Thu?",
+           " Thu ơi, lấy thêm [A] được không em?",
+           " [A] vừa về đúng không Thu?",
+           " Chị thích quá, còn [A] không em?",
+           " Thu, hôm nay có [A] không?",
+           " Em kiểm tra cho chị, [A] còn nhiều không?",
+
+
+
+
+],
+
+    
     "am-sieu-toc": [
         "[A] này đun nước nhanh lắm, rất tiện lợi mỗi sáng",
         "[A] rất tiện nước sôi chỉ trong tích tắc",
