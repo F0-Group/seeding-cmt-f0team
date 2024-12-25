@@ -37,6 +37,131 @@ const categories = {
 ],
 
     
+            "cham-nuoc-mat":[
+            "Thu ơi, cảm ơn em! Mẹ chị uống [A] mà giờ huyết áp ổn định, ăn ngon ngủ ngon hơn hẳn. Thật sự, đây là món quà sức khỏe mà cả gia đình chị biết ơn em nhiều lắm",
+            "Ba mình từng mất ngủ triền miên, từ ngày dùng [A] thấy ba khỏe hơn, tinh thần tốt hẳn, cả nhà mừng lắm. Cảm ơn [A] đã mang lại hy vọng",
+            "Cảm ơn em đã giới thiệu [A]! Cô chú chị ai cũng dùng đều khen, người thì giảm mỡ máu, người thì đỡ đau khớp. Thật sự sản phẩm đáng đồng tiền bát gạo.",
+            
+            "Mẹ chồng mình khó tính nhưng dùng [A] rồi thì khen không ngớt lời. Bà bảo uống vào người khỏe ra, ai chưa thử thật sự là uổng lắm",
+            
+            "Cả nhà chị giờ thành fan cứng của [A] luôn! Từ nội đến ngoại ai cũng thấy khỏe ra, nhất là mẹ, giờ ăn ngon ngủ yên, không còn đau đầu hay mệt mỏi nữa.",
+            
+            "Bạn mình uống [A] chỉ mới 2 tuần mà đã khen rối rít. Bảo là người nhẹ nhõm, ngủ sâu hơn, sức khỏe cải thiện rõ rệt. Không tin phải thử",
+            
+            "Cảm ơn em Thu nhé! Nhờ [A] mà ba chị đỡ đau nhức xương khớp, tinh thần cũng phấn chấn hẳn. Sản phẩm này đúng là cứu tinh sức khỏe cả nhà.",
+            
+            "Thật bất ngờ với [A]! Ba mình vốn khó chịu, hay cáu gắt do mất ngủ mà giờ dễ chịu, khỏe ra thấy rõ. Mình cảm thấy quá xứng đáng để đầu tư",
+            
+            "Chị em ơi, ai còn phân vân thì chốt liền [A] nha! Cô chị vốn khó ngủ mà giờ ăn khỏe ngủ ngon, không còn đau nhức mỏi nữa. Đáng thử lắm luôn",
+            
+            "Mẹ chị bị mỡ máu cao lâu năm mà nhờ [A] đã ổn định hẳn. Cả nhà ai cũng mừng rỡ vì mẹ khỏe ra từng ngày. Sản phẩm quá chất lượng",
+    
+            "Thu ơi, mẹ chị bảo cảm ơn em nhiều lắm. Dùng [A] mà giờ đau nhức xương khớp đỡ hơn, không còn khó ngủ nữa. Sản phẩm này quá đỉnh",
+            
+            "Mỗi ngày uống [A], giờ mẹ mình thấy khỏe hẳn. Mỡ máu giảm, da dẻ sáng hơn, tinh thần phấn khởi lắm. Cảm ơn em đã giới thiệu món quà này",
+            
+            "Thật may mắn khi biết đến [A]. Mẹ chị từng bị mất ngủ triền miên mà giờ ngủ sâu giấc, sức khỏe tốt hơn. Cả nhà đều vui mừng lắm",
+            
+            "Cô dì nội ngoại nhà chị ai cũng hỏi thăm về [A] sau khi thấy mẹ chị khỏe ra. Uống vào thấy người nhẹ nhàng, tinh thần vui vẻ hẳn.",
+            
+            "Ba mình bảo chưa bao giờ cảm thấy khỏe như lúc này. Tất cả là nhờ [A] đấy. Ai đang tìm món quà sức khỏe thì chốt ngay đi nha",
+            
+            "Cảm ơn Thu đã giới thiệu [A]. Ba chị giờ đã khỏe hơn nhiều, không còn đau mỏi, ăn ngon miệng và tinh thần tốt hơn. Ai cũng vui mừng",
+            
+            "Bạn mình dùng thử [A] rồi khen hết lời. Mỡ máu giảm, ngủ sâu hơn, người nhẹ nhõm hơn hẳn. Thật sự đây là sản phẩm ai cũng nên thử",
+            
+            "Cả nhà chị giờ ai cũng nhờ [A] mà khỏe ra, từ ăn ngon, ngủ sâu đến giảm đau nhức xương khớp. Món quà sức khỏe quá tuyệt vời",
+            
+            "Không nghĩ [A] lại hiệu quả đến vậy! Mẹ mình bị cao huyết áp mà giờ ổn định hơn nhiều. Sản phẩm này đúng là đáng tin cậy",
+            
+            "Chị em ơi, nhờ [A] mà gia đình mình khỏe ra rõ rệt. Ba mẹ giờ ăn ngon, ngủ yên, không còn đau nhức như trước. Thật sự tuyệt vời",
+            
+            "Thu ơi, cảm ơn em! Nhờ [A], mẹ chị giờ đã khỏe hơn, ăn ngon miệng, không còn mệt mỏi. Thật sự là món quà vô giá cho sức khỏe",
+            
+            "Không tin thì thử [A] đi mọi người! Chồng mình bị mỡ máu mà giờ cải thiện rõ rệt. Thấy sức khỏe ảnh tốt lên mà mình vui quá trời",
+            
+            "Thật sự biết ơn [A] vì đã giúp mẹ mình khỏe hơn, da dẻ hồng hào, không còn đau mỏi xương khớp. Đúng là sản phẩm chất lượng",
+            
+            "Cảm ơn em đã mang [A] đến. Mẹ chị giờ khỏe ra, ăn ngon hơn, ngủ sâu giấc hơn. Ai chưa thử thì nhanh tay chốt ngay nhé",
+        
+            "Ba mẹ mình giờ uống [A] mỗi ngày, bảo là sức khỏe cải thiện rõ rệt. Đúng là món quà sức khỏe quý giá, cả nhà đều an tâm",
+            
+            "Nghe bạn giới thiệu [A] thấy hay, thử mua mà không ngờ tốt thật. Ba chị giờ khỏe hơn, không còn mất ngủ hay đau nhức nữa",
+            
+            "Thu ơi, cảm ơn em nhé! Nhờ [A] mà mẹ chị bớt đau khớp, ăn ngon miệng, ngủ sâu hơn. Cả nhà đều vui lắm vì thấy mẹ khỏe ra.",
+            
+            "Món quà tuyệt vời từ [A]! Mẹ chị giờ sức khỏe tốt hơn, da dẻ sáng mịn, không còn đau mỏi xương khớp. Cảm ơn em nhiều lắm",
+            
+            "Dùng [A] rồi mới thấy hiệu quả rõ rệt. Cả nhà mình ai cũng khen, từ mỡ máu giảm đến ăn ngon ngủ yên. Đúng là đáng đầu tư",
+            
+            "Chị em ơi, ai còn băn khoăn thì thử [A] ngay nhé! Ba mẹ mình giờ nhờ nó mà khỏe hơn, tinh thần phấn khởi, ai cũng hài lòng",
+
+            "từ ngày má tui uống [A] thấy bả khỏe lại tự nhiên muốn khóc vì trước đây nằm một chỗ không làm gì được giờ bả dậy nấu ăn cho tụi tui rồi cảm ơn trời",
+
+            "bố em ngày trước mất ngủ triền miên mà giờ ngủ sâu giấc lắm mọi người ai bị bệnh cứ thử như bố em biết đâu lại khỏe lên thật sự mừng rớt nước mắt",
+            
+            "nội tui bị đau khớp đi đứng khó khăn mà giờ nhờ uống [A] nội tự đạp xe đi chợ ai cũng trầm trồ hỏi nội tui uống gì khỏe thế mà tui nghẹn ngào không nói được",
+            
+            "má tui trước đây người mệt mỏi ăn uống không nổi giờ uống [A] thấy ăn được ngủ ngon hẳn má còn nói đời này má thấy lại ánh sáng thiệt sự thương má",
+            
+            "chị tui bị cao huyết áp đột quỵ tưởng chừng hết hy vọng mà ai ngờ nhờ uống [A] giờ khỏe lại tinh thần minh mẫn tui mừng không nói nên lời luôn á",
+            
+            "ba em ngày trước bị đau lưng nằm một chỗ giờ uống [A] mà tự dậy đi làm đồng được thấy ba khỏe mà nước mắt cứ chảy không ngừng cảm ơn đời cảm ơn sản phẩm",
+            
+            "trước mẹ mình ốm yếu xanh xao tưởng đâu không qua nổi ai ngờ uống [A] giờ khỏe mạnh lại tự nhiên nước mắt mình rơi vì quá xúc động",
+            
+            "ông ngoại mình hơn 80 tuổi yếu lắm rồi mà uống [A] được mấy tháng giờ tự trồng cây làm vườn lại được thấy ông khỏe mạnh mà nghẹn ngào lắm mọi người",
+            
+            "em không ngờ sản phẩm [A] lại tốt như vậy mẹ em trước đau nhức khắp người giờ tự đi chợ nấu cơm lại cả nhà ai cũng mừng rơi nước mắt",
+            
+            "cô tui bị mỡ máu cao người lúc nào cũng mệt mỏi mà giờ uống [A] thấy khỏe ra còn đi tập thể dục nữa đúng là thần kỳ nước mắt tui cứ chảy",
+            
+            "má tui mấy năm trời bị mất ngủ nhìn bả tiều tụy mà thương giờ nhờ uống [A] má ngủ được da dẻ hồng hào lại thấy má khỏe mà khóc luôn mọi người",
+            
+            "ngoại mình 90 tuổi rồi ai cũng nghĩ yếu vậy chắc nằm một chỗ mãi nhưng từ ngày ngoại uống [A] khỏe hẳn giờ còn tập yoga nữa mọi người thử mà xem",
+            
+            "tôi từng nghĩ mình sẽ mất mẹ nhưng không ngờ nhờ uống [A] mà mẹ khỏe lại giờ mỗi ngày nhìn mẹ nấu cơm cho cả nhà mà nước mắt cứ trào ra",
+            
+            "bà tui uống [A] giờ tự nấu chè bán được luôn mọi người ơi trước đó tưởng bà không đi lại được rồi thấy bà khỏe mà cảm động không tả nổi",
+            
+            "mẹ em giờ khỏe lại nhờ uống [A] mà em thấy đời mình còn ý nghĩa nhiều lắm trời thương cho mẹ em thêm sức khỏe chứ trước tưởng không qua nổi",
+            
+            "ba tui đau nhức xương khớp bao năm mà giờ nhờ [A] ba đi bộ được 5km mỗi ngày luôn thấy ba khỏe mạnh tui khóc vì hạnh phúc luôn",
+            
+            "mẹ chồng em từ ngày uống [A] thấy da dẻ hồng hào tự nhiên cười nhiều hơn mà trước đó ai cũng lo vì mẹ yếu quá giờ khỏe lại thấy thương",
+            
+            "chị tui trước mệt mỏi suốt ngày nằm giường mà giờ nhờ [A] chị khỏe mạnh đi làm bình thường nhìn chị đi lại mà nghẹn ngào lắm mọi người ơi",
+            
+            "mấy năm trời ba tui ăn không ngon ngủ không yên mà giờ nhờ uống [A] ba ăn khỏe hơn ngủ sâu hơn cả nhà ai cũng mừng rớt nước mắt",
+            
+            "bà nội mình 85 tuổi rồi ai cũng nghĩ yếu vậy không khỏe lại nổi mà giờ nhờ uống [A] bà tự đi lễ chùa lại được cảm ơn đời cảm ơn sản phẩm",
+            
+            "má tui từ ngày uống [A] thấy má vui vẻ lại làm được bánh bán hàng như hồi xưa trước đó nhìn má ốm yếu mà tui thương khóc không dám nói",
+            
+            "bố mình trước yếu lắm tưởng đâu không làm nổi gì nữa mà giờ nhờ uống [A] bố đi làm lại thấy bố khỏe mạnh mà xúc động khóc luôn mọi người",
+            
+            "chị em bị mỡ máu cao tưởng sẽ phải dùng thuốc mãi mà giờ uống [A] mỡ máu ổn định khỏe ra chị còn bảo đời như sống lại cảm động thật sự",
+            
+            "trước mẹ tui bị đau khớp không leo nổi cầu thang giờ uống [A] mẹ tự đi chợ nấu cơm cho cả nhà thấy mẹ khỏe tui mừng quá mà khóc luôn",
+            
+            "ông ngoại tui từ ngày uống [A] thấy ông mạnh mẽ hơn hẳn tự làm vườn hái rau không ai tin nổi thấy ông khỏe cả nhà tui mừng nước mắt rơi",
+            
+            "tôi chưa từng nghĩ mẹ tôi sẽ khỏe lại được nhưng nhờ uống [A] giờ mẹ ăn khỏe ngủ ngon cả nhà đều vui cảm giác như phép màu đến vậy",
+            
+            "ba em từ ngày nhờ uống [A] giờ đi đá bóng với mấy ông hàng xóm luôn trước đây ông nằm suốt trên giường ai mà không mừng rơi nước mắt",
+            
+            "ông nội mình hơn 90 tuổi rồi uống [A] giờ đi đứng vững vàng không cần ai dìu nữa cả nhà ai cũng khóc vì thấy ông khỏe mạnh lại",
+            
+            "trước nội em mệt mỏi đau khớp lắm nhưng nhờ uống [A] giờ nội đi thăm bà con được luôn ai cũng hỏi nội uống gì mà khỏe nội khen quá trời",
+            
+            "mẹ tui trước đây mất ngủ cả năm trời mà giờ uống [A] mẹ ngủ ngon ăn khỏe tự nhiên tui thấy thương mẹ quá mà khóc luôn mọi người thử đi",
+
+
+
+
+],
+
+    
     "am-sieu-toc": [
         "[A] này đun nước nhanh lắm, rất tiện lợi mỗi sáng",
         "[A] rất tiện nước sôi chỉ trong tích tắc",
