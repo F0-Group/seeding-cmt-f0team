@@ -2,8 +2,8 @@
 let originalComments = [
    " -mã đơn- 1 -đơn vị- -icon-",
     " -mã đơn- 2 -đơn vị- 093837**** -icon- ",
-    "2 -đơn vị- 093837273",
-    "cho e 2 -đơn vị- -mã đơn- 037872**2 -icon-",
+    "2 -đơn vị- 093*********",
+    "cho e 2 -đơn vị- -mã đơn- 037872**2 ",
     "cho cô -mã đơn-  2 -đơn vị-  03**********",
     "cô lấy -mã đơn-  4 -đơn vị-  07**********",
     "cô mua thêm -mã đơn-  2 -đơn vị-  07**********",
@@ -63,12 +63,7 @@ let originalComments = [
     "-icon-",
     "-icon-",
     "-icon-",
-    "-icon-",
-    "-icon-",
-    "-icon-",
-    "-icon-",
-    "-icon-",
-    "-icon-",
+  
   
     "-icon-",
     "Cô cần 1 -đơn vị- mã -mã đơn- nha em",
@@ -173,7 +168,7 @@ let originalComments = [
     "cho chị mã -mã đơn- -icon-",
     "-icon-",
     "chốt chị mã-mã đơn- sdt **************  -icon-",
-    "em mua -mã đơn- nhé -icon-" ,
+    "em mua -mã đơn- nhé" ,
     " -mã đơn- shop ơi -icon-",
     "-icon-",
     "1 mã -mã đơn- nhé shop",
