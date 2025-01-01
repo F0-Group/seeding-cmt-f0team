@@ -27,7 +27,7 @@ const categories = {
         "Mua nhiều lần, lần nào cũng hài lòng. Cảm ơn em ",
         "Chất lượng và dịch vụ của shop rất đáng tin cậy ",
         "Mua đồ ở đây lần nào cũng đẹp, chất lượng tuyệt vời! ",
-    ]
+    ],
     "hoi-san-pham":[
         "còn [A] không chị",
        " còn [A]  không Thu ơi",
