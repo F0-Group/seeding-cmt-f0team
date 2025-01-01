@@ -1,5 +1,33 @@
 
 const categories = {
+    "khen": [
+
+        "Shop uy tín, lần nào mua cũng hài lòng",
+        "Giao hàng nhanh, sản phẩm đúng mô tả, rất tin cậy",
+        "Mua nhiều lần r, luôn ưng ý từ chất lượng đến dịch vụ! 🥰 ",
+        "Tư vấn tận tình, đóng gói cẩn thận, ủng hộ dài lâu",
+        "Chất lượng tuyệt vời, giá hợp lý, đáng mua ",
+        "Cảm ơn shop vì sản phẩm chất lượng ",
+        "Đặt hàng dễ dàng, giao nhanh, dịch vụ chu đáo ",
+        "Shop có tâm, phục vụ tuyệt vời, sản phẩm chất lượng ",
+        "Lần nào mua cũng yên tâm, sản phẩm như mong đợi ",
+        "Đóng gói kỹ, giao nhanh, dịch vụ tuyệt vời ",
+        "Mình đã giới thiệu shop cho bạn bè, ai cũng khen ",
+        "Shop luôn lắng nghe và hỗ trợ khách hàng ",
+        "Sản phẩm đa dạng, giá hợp lý, đáng mua",
+        "Chưa bao giờ thất vọng khi mua ở shop này! ",
+        "Cảm ơn shop, mình sẽ tiếp tục ủng hộ  🌟 ",
+        "Mua ở đây lần nào cũng hài lòng! ",
+        "Shop uy tín, giao đúng mẫu, chất lượng tốt! ❤️ ",
+        "Phong cách làm việc chu đáo và chuyên nghiệp. ",
+        "Sản phẩm chất lượng, giá rẻ, cực kỳ ưng ý ",
+        "Shop Thu Lê bán hàng có tâm, chất lượng thật sự! ❤️ ",
+        "Xem livestream thấy đồ xinh, giá hợp lý! ",
+        "Sản phẩm chất lượng, yên tâm mua hàng ",
+        "Mua nhiều lần, lần nào cũng hài lòng. Cảm ơn em ",
+        "Chất lượng và dịch vụ của shop rất đáng tin cậy ",
+        "Mua đồ ở đây lần nào cũng đẹp, chất lượng tuyệt vời! ",
+    ]
     "hoi-san-pham":[
         "còn [A] không chị",
        " còn [A]  không Thu ơi",
