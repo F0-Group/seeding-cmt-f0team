@@ -12,12 +12,12 @@ const categories = {
         "Đợt mega vừa rồi chị nhận được quà kim cương của em Thu rồi nha, chị không ngờ em chơi lớn vậy, người thật việc thật chị rất thích em, đơn 3 triệu vừa rồi lấy thêm cho chị 5 hộp sữa hạt để chị gửi ba mẹ dùng",
         "Hàng nhà Thu đúng là chất lượng tốt thiệt, cô vừa coi live hồi chiều đã nhận được lì xì của Thu rồi, lần đầu tiên cô coi live được nhận luôn, con bán hàng có tâm thật, chúc con buôn may bán đắt nhé Thu",
         "Đặt hàng 2 lần ở nhà chị Thu, lần nào cũng giao nhanh mà còn đóng gói cẩn thận, hàng về chất lượng quá tuyệt luôn",
-        "Em vừa nhận được đơn hàng 4 triệu, đúng là hàng y như chị Thu giới thiệu, quá hài lòng, chúc chị ngày càng đông khách nhé!"
+        "Em vừa nhận được đơn hàng 4 triệu, đúng là hàng y như chị Thu giới thiệu, quá hài lòng, chúc chị ngày càng đông khách nhé!",
         "Mua nước sâm nhà chị Thu uống vào thấy cơ thể khỏe khoắn hẳn, em nói thật chứ hàng chất lượng lắm, ai chưa thử thì nên mua ngay",
-        "Mỗi lần coi live của Thu là chỉ muốn chốt đơn liền tay, vừa được quà tặng vừa miễn ship, quá ưng ý luôn!"
+        "Mỗi lần coi live của Thu là chỉ muốn chốt đơn liền tay, vừa được quà tặng vừa miễn ship, quá ưng ý luôn!",
         "Mua 5 hộp sữa hạt bên Thu cho cả nhà dùng, ai cũng khen ngon, chị bán hàng có tâm nên em yên tâm ủng hộ lâu dài",
         "Chị Thu bán hàng uy tín lắm, lần nào hàng lỗi là hỗ trợ đổi ngay, cách xử lý chuyên nghiệp nên em luôn tin tưởng",
-        "Hôm nay nhận được hộp quà từ shop mà vui quá, hàng không chỉ đẹp mà còn đúng chất lượng, cảm ơn chị Thu nhiều nhé!"
+        "Hôm nay nhận được hộp quà từ shop mà vui quá, hàng không chỉ đẹp mà còn đúng chất lượng, cảm ơn chị Thu nhiều nhé!",
         "Cô vừa đặt đơn bên Thu mà chưa đầy 4 ngày đã nhận được, lần đầu mua hàng online mà cảm giác tốt đến vậy, chúc con luôn đắt khách",
         "Lần nào nhận hàng từ Thu cũng bất ngờ vì quá nhanh, lại thêm nhiều quà tặng ý nghĩa, chị bán hàng có tâm thật sự",
         "Đặt hàng nhiều nơi rồi nhưng đúng là chỉ có Thu là làm mình hài lòng, từ dịch vụ đến sản phẩm đều tuyệt vời",
