@@ -102,7 +102,7 @@ const categories = {
             "Em cảm động sâu sắc",
             "Chị thật tuyệt vời",
                     
-    ]
+    ],
     "khen": [
         "Mua đơn hơn 2 triệu rồi mà lần nào nhận hàng cũng ưng ý, đúng là chị Thu bán hàng chất lượng thật sự rất đáng đồng tiền",
         "Hàng của Thu em nói chứ chất lượng quá tuyệt, mỗi lần nhận được đều vui vì đúng như shop quảng cáo, em sẽ kéo bạn bè ủng hộ chị Thu lâu dài",
