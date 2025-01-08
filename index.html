@@ -18,15 +18,61 @@
     <link rel="stylesheet" href="/asset/comment.css"> 
     <link rel="stylesheet" href="/asset/style.css"> 
 
-    <style>
-        label {
-            color: white;
-          }
-        
-          /* Màu chữ trong chế độ tối */
-          .dark label {
-            color: white;
-          }
+  <style>
+
+/* Kiểu dáng chung cho nút */
+.btn {
+    width: 50px;
+    padding: 12px 14px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Nút Lì xì */
+.btn-li-xi {
+    background-color: #ff4d4f; /* Màu đỏ */
+}
+.btn-li-xi:hover {
+    background-color: #d9363e; /* Đậm hơn khi hover */
+}
+.btn-li-xi:active {
+    background-color: #a8272b; /* Đậm hơn khi nhấn */
+}
+
+/* Nút May mắn */
+.btn-may-man {
+    background-color: #52c41a; /* Màu xanh lá */
+}
+.btn-may-man:hover {
+    background-color: #3c9e13; /* Đậm hơn khi hover */
+}
+.btn-may-man:active {
+    background-color: #2a6e0c; /* Đậm hơn khi nhấn */
+}
+
+/* Nút Số 1 */
+.btn-so-1 {
+    background-color: #1890ff; /* Màu xanh dương */
+}
+.btn-so-1:hover {
+    background-color: #1276cc; /* Đậm hơn khi hover */
+}
+.btn-so-1:active {
+    background-color: #0c5399; /* Đậm hơn khi nhấn */
+}
+
+/* Hiệu ứng nhấn nhẹ */
+.btn:active {
+    transform: scale(0.95); /* Nút thu nhỏ nhẹ khi nhấn */
+}
+
+
         /* Basic Styles for Boxers */
         .box-container {
             display: flex;
@@ -35,10 +81,11 @@
             gap: 10px;
             margin-top: 10px;
         }
+
         .boxer {
             width: 30px;
             height: 80px;
-            font-weight: 500;
+
             font-family: 'Roboto Mono', monospace;
             font-size: 50px;
             color: rgb(255, 255, 255);
@@ -47,50 +94,41 @@
             justify-content: center;
             text-align: center;
         }
-        .space {
-            width: 30px;
-            height: 30px;
-        }
-        .click {
-            display: inline-block;
-            cursor: pointer;
-        }
-        .ani-button {
 
-        }
-        
         @media screen and (max-width: 768px) {
 
             .boxer {
-                width: 10px;
-                height: 30px;
-                font-size: 20px;
-                 font-weight: 600;
+                width: 30px;
+                height: 80px;
+                font-size: 30px;
             }
-             .space {
-            width: 20px;
-            height: 30px;
-        }
 
         }
 
         @media screen and (max-width: 480px) {
             .boxer {
-                width: 10px;
-                height: 30px;
-                font-size: 20px;
-                font-weight: 600;
+                width: 30px;
+                height: 50px;
+                font-size: 30px;
             }
-             .space {
-            width: 20px;
+
+
+        }
+
+        .space {
+            width: 30px;
             height: 30px;
         }
 
-
+        .click {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            cursor: pointer;
         }
 
+        .ani-button {}
     </style>
-    
 </head>
 
 <body>
@@ -168,6 +206,11 @@
             <ul id="commentsList">
             </ul>
         </div>
+    </div>
+        <div class="controls flex gap-3">
+        <button id="btnLiXi" class="btn btn-li-xi">Lì xì</button>
+        <button id="btnMayMan" class="btn btn-may-man">May mắn</button>
+        <button id="btnSo1" class="btn btn-so-1">Số 1</button>
     </div>
     <!-- -------------comment khen -->
 
@@ -250,5 +293,66 @@
 
 
 </body>
+<script>
+// Hàm tạo dữ liệu random cho "Lì xì"
+function generateLiXiComments() {
+    const data = [
+        "lì xì",
+        "Lì xì",
+        "LÌ Xì",
+        "lì xì *************",
+        "Lì Xì *************"
+    ];
+    return Array.from({ length: 100 }, () => data[Math.floor(Math.random() * data.length)]);
+}
 
+// Hàm tạo dữ liệu random cho "May mắn"
+function generateMayManComments() {
+    const data = [
+        "May mắn",
+        "MAY MẮN",
+        "may mắn",
+        "May mắn *************",
+        "MAY MẮN *************"
+    ];
+    return Array.from({ length: 100 }, () => data[Math.floor(Math.random() * data.length)]);
+}
+
+// Hàm sao chép comment
+function copyComments(comments, button) {
+    const textArea = document.createElement('textarea');
+    textArea.value = comments.join('\n');
+    document.body.appendChild(textArea);
+    textArea.select();
+    document.execCommand('copy');
+    document.body.removeChild(textArea);
+
+    // Thay đổi màu nút trong 2 giây
+    const originalColor = button.style.backgroundColor;
+    button.style.backgroundColor = '#ffc107'; // Màu vàng nổi bật khi nhấn
+    setTimeout(() => {
+        button.style.backgroundColor = originalColor; // Trở về màu gốc
+    }, 2000);
+}
+
+// Gắn sự kiện cho nút "Lì xì"
+document.getElementById('btnLiXi').addEventListener('click', function () {
+    const comments = generateLiXiComments();
+    copyComments(comments, this);
+});
+
+// Gắn sự kiện cho nút "May mắn"
+document.getElementById('btnMayMan').addEventListener('click', function () {
+    const comments = generateMayManComments();
+    copyComments(comments, this);
+});
+
+// Gắn sự kiện cho nút "Số 1"
+document.getElementById('btnSo1').addEventListener('click', function () {
+    const comments = generateLiXiComments(); // Sử dụng cùng danh sách "Lì xì" nếu cần
+    copyComments(comments, this);
+});
+
+
+</script>
 </html>
