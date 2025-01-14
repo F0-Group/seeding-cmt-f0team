@@ -99,7 +99,7 @@ const categories = {
         "Sản phẩm chất lượng, yên tâm mua hàng ",
         "Mua nhiều lần, lần nào cũng hài lòng. Cảm ơn em ",
         "Chất lượng và dịch vụ của shop rất đáng tin cậy ",
-        "Mua đồ ở đây lần nào cũng đẹp, chất lượng tuyệt vời! ",
+        "Mua đồ ở đây lần nào cũng đẹp, chất lượng tuyệt vời! "
     ],
     "hoi-san-pham":[
          "Uống [A] bao lâu thì có hiệu quả vậy chị?",
@@ -162,7 +162,7 @@ const categories = {
         "Chị ơi, [A] còn không, hàng hot quá chốt không kịp nè",
         "Bạn bảo [A] xài thích cực, chị lên hàng đi để em đặt ngay",
            " Chị thích quá, còn [A] không em cho chị mua thêm với",
-           " Thu, hôm nay có [A] không chị muốn mua thêm 3 cái á",
+           " Thu, hôm nay có [A] không chị muốn mua thêm 3 cái á"
           
 
 
@@ -350,7 +350,7 @@ const categories = {
             
             "trước nội em mệt mỏi đau khớp lắm nhưng nhờ uống [A] giờ nội đi thăm bà con được luôn ai cũng hỏi nội uống gì mà khỏe nội khen quá trời",
             
-            "mẹ tui trước đây mất ngủ cả năm trời mà giờ uống [A] mẹ ngủ ngon ăn khỏe tự nhiên tui thấy thương mẹ quá mà khóc luôn mọi người thử đi",
+            "mẹ tui trước đây mất ngủ cả năm trời mà giờ uống [A] mẹ ngủ ngon ăn khỏe tự nhiên tui thấy thương mẹ quá mà khóc luôn mọi người thử đi"
 
 
 
@@ -377,7 +377,7 @@ const categories = {
         "Lòng [A]  chống dính rất tốt, vệ sinh dễ dàng, không tốn nhiều thời gian",
         "Đọc các đánh giá thấy mọi người đều khen [A] này, chắc chắn mình cũng phải mua một chiếc về dùng thử",
         "Thấy nhiều người khuyên dùng, mình rất háo hức muốn mua ngay [A]  để nấu thử",
-        "Sắp tới chuyển nhà mới, mình đang cân nhắc sắm chiếc [A] này để tiện nấu ăn hàng ngày",
+        "Sắp tới chuyển nhà mới, mình đang cân nhắc sắm chiếc [A] này để tiện nấu ăn hàng ngày"
 
     ],
     "noi-chien-khong-dau": [
