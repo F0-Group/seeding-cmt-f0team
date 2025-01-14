@@ -37,6 +37,33 @@ let originalComments = [
     "gộp luôn -mã đơn- 3 -đơn vị- 08*********",
     "chị chốt đơn -mã đơn- 2 -đơn vị- ***********",
     "em lấy thêm -mã đơn- 5 -đơn vị- ************",
+      
+    "-mã đơn- -đơn vị- 88 Quốc Lộ 13, Hiệp Bình Phước, Thủ Đức gửi về chỗ cũ đi",
+    "-mã đơn- -đơn vị- 28 Tôn Đức Thắng, Ngũ Hành Sơn, Đà Nẵng, về địa chỉ cũ ",
+    "-mã đơn- -đơn vị- 93 Đường 3/2, P8, Trà Vinh, giao tới chỗ cũ",
+    "-mã đơn- -đơn vị- 140 Nguyễn Công Trứ Cái Khế Ninh Kiều Cần Thơ cứ ship đến chỗ cũ",
+    "-mã đơn- -đơn vị- 19 Võ Văn Tần, Q3, TP.HCM, lấy giúp nhé sđt **************",
+    "-mã đơn- -đơn vị- sđt ************** 37 Lê Đại Hành, P5, Bạc Liêu, cứ gửi về chỗ cũ nha",
+    "-mã đơn- -đơn vị- 15 Trần Phú, Cà Mau sđt ************** giao đúng địa cũ là được",
+    "-mã đơn- -đơn vị- 58 Hoàng Diệu, P5, Cần Thơ  ship như mọi khi nhé sđt **************",
+    "-mã đơn- -đơn vị- 55 Võ Thị Sáu, Biên Hòa, Đồng Nai cứ theo địa cũ giao nha Thu sđt **************",
+    "-mã đơn- -đơn vị- 72 Phạm Văn Đồng, Vĩnh Hòa, Nha Trang, giao nhanh theo địa cũ nhé",
+    "-mã đơn- -đơn vị- 120 Lý Tự Trọng, Hải Châu, Đà Nẵng, gửi luôn đi, đừng gọi",
+    "-mã đơn- -đơn vị- 33 Nguyễn Đình Chiểu, Đà Lạt, cứ địa cũ mà giao",
+    "-mã đơn- -đơn vị- 25 Nguyễn An Ninh, Pleiku, Gia Lai, gọi không cần, sđt ************",
+    "-mã đơn- -đơn vị- 44 Phan Bội Châu, Hội An, Quảng Nam SDT *************** ship tới như cũ",
+    "-mã đơn- -đơn vị- 30 Hoàng Văn Thụ, Nam Định, gửi tới đúng địa cũ là được SDT *************** ",
+    "-mã đơn- -đơn vị- 12 Nguyễn Thị Minh Khai, Q1, TP.HCM, giao lại địa cũ nhé SDT *************** ",
+    "-mã đơn- -đơn vị- SDT ***************  62 Trường Chinh, Bình Tân, TP.HCM giao về chỗ cũ của cô nha con",
+    "SDT ***************  -mã đơn- -đơn vị- 35 Nguyễn Huệ, P2, Quy Nhơn ship tới chỗ cũ nha",
+    "-mã đơn- -đơn vị- 66 Lê Hồng Phong, P3, Bến Tre SDT ***************  cứ gửi về địa cũ cho nhanh",
+    "-mã đơn- -đơn vị- 101 Lê Duẩn, Ba Đình, Hà Nội, không cần gọi ",
+    "SDT ***************  -mã đơn- -đơn vị- 88 Nguyễn Văn Cừ, An Hòa, Ninh Kiều, Cần Thơ, giao đúng địa chỉ cũ",
+    "-mã đơn- -đơn vị- 77 Hoàng Hoa Thám, Nghĩa Lộ, Quảng Ngãi, ship về nhanh đi",
+    "-mã đơn- -đơn vị- 45 Lê Lợi, P4, Vũng Tàu, địa cũ nhé SDT *************** ",
+    "-mã đơn- -đơn vị- 120 Nguyễn Thị Định, Đông Ba, Huế, giao như cũ nha",
+    "-mã đơn- -đơn vị- 90 Phan Văn Trị, Gò Vấp, TP.HCM, giao luôn không cần gọi",
+
     "cho chị 3 -đơn vị- -mã đơn- ***********",
     "lấy -mã đơn- 6 -đơn vị- ***********",
     "gom lại -mã đơn- 4 -đơn vị- ************",
@@ -106,11 +133,10 @@ let originalComments = [
     " -mã đơn- shop ơi ***********",
     "1 mã -mã đơn- nhé shop ***********",
 
-    "-icon-",
     
     
     "Lấy chị 1 -đơn vị- -mã đơn-  *********** -icon-",
-    "-icon-",
+
     "2 -đơn vị- -mã đơn- *********** -icon-",
     "3 -đơn vị- -mã đơn- cho chị ************",
     " lấy 1 -đơn vị- -mã đơn- cho em ***********",
@@ -125,7 +151,7 @@ let originalComments = [
     "Anh 1 -đơn vị- -mã đơn- nha Thu",
     "C cần mã -mã đơn-, 1 -đơn vị- nha em -icon- ***********",
     "Anh lấy mã -mã đơn-, 1 -đơn vị- nha ***********",
-    "-icon-",
+
     "Anh cần 1 -đơn vị- mã -mã đơn- nhé Thu -icon- ***********",
     "Thu ơi, chốt giùm E 1 -đơn vị- -mã đơn- -icon- ***********",
     "-mã đơn- /3-mã đơn- ***********",
@@ -155,7 +181,7 @@ let originalComments = [
     "cho dì mã -mã đơn- *********** ",
     "chế lấy -mã đơn- 3-đơn vị- ***********",
     "bác muốn mua mã -mã đơn- 5 -đơn vị- ***********",
-    "-icon-",
+
     "cô mua thêm -mã đơn- 4-đơn vị- nha con ***********",
     " -mã đơn- shop ơi ***********",
     "mua hàng nhà chị nhiều quá rồi mà ưng lắm lấy e thêm mã -mã đơn- nha ***********",
@@ -167,11 +193,11 @@ let originalComments = [
     "nhà em xài hoài luôn, lấy e -mã đơn-  thêm nha  ***********",
     "lấy anh -mã đơn- -mã đơn- ***********",
     "cho chị mã -mã đơn- -icon- ***********",
-    "-icon-",
+
     "chốt chị mã-mã đơn- sdt **************  -icon-",
     "em mua -mã đơn- nhé ***********" ,
     " -mã đơn- shop ơi -icon- ***********",
-    "-icon-",
+
     "1 mã -mã đơn- nhé shop ***********",
 ];
 const icons = ["🌹", "👏", "💐", "🌟", "🎉", "✨", "❤️"];
