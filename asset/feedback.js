@@ -114,8 +114,8 @@ const categories = {
         "Chị ơi, còn [A] không? Em đặt thêm 2 hộp để xài dần.",
          "Thu ơi, [A] có khó uống không? Em sợ đắng lắm.",
         "Uống [A] có cần tham khảo bác sĩ trước không chị?",
-        "Em muốn mua [A] cho cả nhà dùng, có khuyến mãi gì không chị?"
-        "Uống [A] vào buổi sáng hay tối thì tốt hơn chị?",
+        "Em muốn mua [A] cho cả nhà dùng, có khuyến mãi gì không chị?",
+        "Uống [A] vào buổi sáng hay tối thì tốt hơn chị",
         "Bạn em khen [A] lắm, em muốn thử ngay, còn hàng không chị?",
         "Thu ơi, [A] có phù hợp với người bị huyết áp cao không?",
         "Em vừa mới sinh, uống [A] được không chị? Có hỗ trợ lợi sữa không?",
