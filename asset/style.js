@@ -4,7 +4,7 @@ let originalComments = [
 
   " -mã đơn- -đơn vị- -số lượng- **********",
 " -mã đơn- -số lượng- -đơn vị- ************ sđt  ",
-"-số lượng- -đơn vị-  -số lượng- sdt **********",
+"-số lượng- -đơn vị- sdt **********",
 "cho e -số lượng- -đơn vị- -mã đơn- sdt ********** ",
 "cho cô -mã đơn- -số lượng- -đơn vị- **********",
 "cô lấy -mã đơn- -số lượng- -đơn vị-  **********",
