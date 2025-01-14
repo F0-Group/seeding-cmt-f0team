@@ -13,7 +13,7 @@ const categories = {
             "Chị Thu làm em rất cảm động",
             "Tấm lòng vàng",
             "Mãi ngưỡng mộ và ủng hộ anh chị",
-            "Em rưng rưng nước mắt",
+            "Em rưng rưng nước mắt"
   
                     
     ],
@@ -99,7 +99,7 @@ const categories = {
         "Sản phẩm chất lượng, yên tâm mua hàng ",
         "Mua nhiều lần, lần nào cũng hài lòng. Cảm ơn em ",
         "Chất lượng và dịch vụ của shop rất đáng tin cậy ",
-        "Mua đồ ở đây lần nào cũng đẹp, chất lượng tuyệt vời! ",
+        "Mua đồ ở đây lần nào cũng đẹp, chất lượng tuyệt vời! "
     ],
     "hoi-san-pham":[
          "Uống [A] bao lâu thì có hiệu quả vậy chị?",
@@ -162,7 +162,7 @@ const categories = {
         "Chị ơi, [A] còn không, hàng hot quá chốt không kịp nè",
         "Bạn bảo [A] xài thích cực, chị lên hàng đi để em đặt ngay",
            " Chị thích quá, còn [A] không em cho chị mua thêm với",
-           " Thu, hôm nay có [A] không chị muốn mua thêm 3 cái á",
+           " Thu, hôm nay có [A] không chị muốn mua thêm 3 cái á"
           
 
 
@@ -350,7 +350,7 @@ const categories = {
             
             "trước nội em mệt mỏi đau khớp lắm nhưng nhờ uống [A] giờ nội đi thăm bà con được luôn ai cũng hỏi nội uống gì mà khỏe nội khen quá trời",
             
-            "mẹ tui trước đây mất ngủ cả năm trời mà giờ uống [A] mẹ ngủ ngon ăn khỏe tự nhiên tui thấy thương mẹ quá mà khóc luôn mọi người thử đi",
+            "mẹ tui trước đây mất ngủ cả năm trời mà giờ uống [A] mẹ ngủ ngon ăn khỏe tự nhiên tui thấy thương mẹ quá mà khóc luôn mọi người thử đi"
 
 
 
@@ -364,7 +364,7 @@ const categories = {
         "[A] này rất bền, dùng lâu mà không hư hỏng, thích lắm",
         "nước nóng nhanh dùng lâu bền [A] rất đáng để mua",
         "[A] này bền quá cho chị mau thêm 2 cái nha",
-        "nhà ngoại em có 2 cái [A] hiệu này sài 6 năm rồi chưa thấy hư luôn á",
+        "nhà ngoại em có 2 cái [A] hiệu này sài 6 năm rồi chưa thấy hư luôn á"
     ],
     "noi-com": [
         "[A] này không chỉ nấu cơm ngon mà còn giữ ấm rất lâu, cơm luôn nóng hổi khi ăn",
@@ -377,7 +377,7 @@ const categories = {
         "Lòng [A]  chống dính rất tốt, vệ sinh dễ dàng, không tốn nhiều thời gian",
         "Đọc các đánh giá thấy mọi người đều khen [A] này, chắc chắn mình cũng phải mua một chiếc về dùng thử",
         "Thấy nhiều người khuyên dùng, mình rất háo hức muốn mua ngay [A]  để nấu thử",
-        "Sắp tới chuyển nhà mới, mình đang cân nhắc sắm chiếc [A] này để tiện nấu ăn hàng ngày",
+        "Sắp tới chuyển nhà mới, mình đang cân nhắc sắm chiếc [A] này để tiện nấu ăn hàng ngày"
 
     ],
     "noi-chien-khong-dau": [
@@ -395,7 +395,7 @@ const categories = {
         "Tuyệt vời cho những ai đang ăn kiêng, món nào cũng ngon mà không bị ngấy",
         "Bạn em đã dùng và khen nhiều, chắc chắn em sẽ mua hộ chị để thử làm các món chiên nướng tại nhà",
         "Đang tìm một chiếc [A] phù hợp, thấy [A] này nhiều người khen, chắc phải đặt ngay",
-        "Thích ăn đồ chiên nhưng sợ béo, hy vọng [A] này sẽ là giải pháp tuyệt vời cho chị bạn",
+        "Thích ăn đồ chiên nhưng sợ béo, hy vọng [A] này sẽ là giải pháp tuyệt vời cho chị bạn"
     ],
     "cai-thien-suc-khoe": [
         "[A] giúp anh cảm thấy khỏe khoắn hơn mỗi ngày, đặc biệt phù hợp với người thường xuyên mệt mỏi",
@@ -413,7 +413,7 @@ const categories = {
         "Từ khi sử dụng [A] ba mẹ tôi ít than đau nhức xương khớp hơn, sức khỏe cải thiện rõ rệt",
         "[A]là món quà ý nghĩa để chăm sóc sức khỏe cha mẹ, giúp ông bà sống vui và khỏe mạnh mỗi ngày",
         "Cha mẹ tôi rất thích bảo là cơ thể nhẹ nhàng, không còn mệt mỏi như trước, nghe vậy tôi vui lắm",
-        "Mỗi ngày làm [A] 1 ly cho bố mẹ uống, thấy ông bà tràn đầy năng lượng và vui vẻ hơn hẳn",
+        "Mỗi ngày làm [A] 1 ly cho bố mẹ uống, thấy ông bà tràn đầy năng lượng và vui vẻ hơn hẳn"
     ],
     "do-an": [
         "[A] vừa ngon vừa hợp túi tiền, ăn là ghiền luôn",
@@ -443,7 +443,7 @@ const categories = {
         "[A] này chắc chắn sẽ khiến bạn hài lòng",
         "Ăn [A] này thấy ngon miệng cả ngày",
         "Hương vị [A] tuyệt vời, không thể chối từ",
-        "[A] này làm mình nhớ mãi",
+        "[A] này làm mình nhớ mãi"
     ],
     "ao": [
         "[A] đẹp, dáng chuẩn, rất thích",
@@ -470,7 +470,7 @@ const categories = {
         "[A] này rất thoải mái, mặc cả ngày không mệt",
         "Dáng váy đẹp, phù hợp với nhiều kiểu dáng người",
         "[A] mặc vào rất tôn dáng, tôi rất thích",
-        "[A] này mặc vào vừa đẹp, vừa thoải mái",
+        "[A] này mặc vào vừa đẹp, vừa thoải mái"
     ],
     "sua": [
     "Chị mua [A] thử, thật sự ngon, như trở về tuổi thơ.",
@@ -557,7 +557,7 @@ const categories = {
         "[A] giúp bổ sung vitamin và khoáng chất cho cơ thể",
         "Hương vị tự nhiên, rất tốt cho sức khỏe",
         "Chắc chắn sẽ mua lại sữa hạt này",
-        "[A] bổ dưỡng, một sự lựa chọn tuyệt vời",
+        "[A] bổ dưỡng, một sự lựa chọn tuyệt vời"
     ],
     "thuoc-men": [
         "[A] cực kỳ hiệu quả, mẹ chị uống vài ngày đã thấy đỡ đau",
@@ -577,7 +577,7 @@ const categories = {
         "Cảm ơn shop, [A] bên em hỗ trợ xương khớp rất tốt, mẹ chị khen lắm",
         "Nhà mình dùng [A] này thấy hiệu quả rõ ràng, sẽ tiếp tục ủng hộ shop",
         "Nhận được hàng đúng mẫu mã, chất lượng tuyệt vời, cảm ơn shop",
-        "Sẽ giới thiệu bạn bè dùng thử, [A] này thật sự hiệu quả",
+        "Sẽ giới thiệu bạn bè dùng thử, [A] này thật sự hiệu quả"
     ],
     "quan": [
         "[A] rất dễ mặc và dễ phối đồ",
@@ -617,7 +617,7 @@ const categories = {
         "Rất phù hợp cho những buổi sáng tập thể dục ngoài trời",
         "Sản phẩm chất lượng tốt, rất đáng mua",
         "[A] này giúp tôi tập luyện dễ dàng hơn",
-        "Chất liệu siêu nhẹ, hoàn hảo cho những ngày tập luyện dài",
+        "Chất liệu siêu nhẹ, hoàn hảo cho những ngày tập luyện dài"
 
     ],
     "lan-da": [
@@ -655,7 +655,7 @@ const categories = {
         "Cảm giác như da được chăm sóc ở spa, vừa sạch vừa mềm mại và thơm lâu mà thực ra là tui sài [A] hahaa",
         "Dùng [A] lâu dài, Chị thấy da trở nên mềm mượt hơn, không còn khô hay sần sùi ở những vùng như khuỷu tay hay đầu gối",
         "[A] không chỉ giúp làm sạch mà còn dưỡng da, da Chị cải thiện rất nhiều chỉ sau vài tuần",
-        "Làn da chị trở nên mềm mịn và khỏe khoắn hơn, không còn tình trạng khô nứt khi trời lạnh, chị cảm ơn em đã giới thiệu [A] cho chị",
+        "Làn da chị trở nên mềm mịn và khỏe khoắn hơn, không còn tình trạng khô nứt khi trời lạnh, chị cảm ơn em đã giới thiệu [A] cho chị"
     ],
     "dau-goi": [
         "Dùng [A] này, tóc cô khỏe hẳn lên, không còn rụng nhiều như trước",
@@ -684,7 +684,7 @@ const categories = {
         "Mình rất hài lòng, chắc chắn sẽ tiếp tục mua lại và giới thiệu cho bạn bè",
         "Đây là lựa chọn hoàn hảo cho cả nam và nữ, đặc biệt là những ai có tóc khô và hư tổn",
         "Thích hợp cho tóc nhuộm vì không làm phai màu mà còn giúp tóc mềm hơn",
-        "Chị mua cho cả nhà dùng thử, ai cũng hài lòng vì [A] vừa thơm, vừa giúp tóc khỏe",
+        "Chị mua cho cả nhà dùng thử, ai cũng hài lòng vì [A] vừa thơm, vừa giúp tóc khỏe"
     ]
 };
 const productSuggestions = ["sữa hạt", "sữa khớp", "sữa bột", "nồi chiên không dầu", "nồi lẩu", "Nồi chiên không dầu", "quần tây", "quần thể thao", "quần kaki", "tinh dầu thông đỏ", "nấm linh chi",
