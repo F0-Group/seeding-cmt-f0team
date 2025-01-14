@@ -54,7 +54,7 @@ const categories = {
         "Chúc shop mi Thu năm mới đông khách, phát tài",
         "Sản phẩm của con Thu, dùng rồi là chỉ mê",
         "Hàng nhà mi Thu luôn chất lượng, Tết mua là chuẩn",
-        "Chúc cháu Thu năm mới vui vẻ, làm ăn phát đạt"
+        "Chúc cháu Thu năm mới vui vẻ, làm ăn phát đạt",
         "Mua đơn hơn 2 triệu rồi mà lần nào nhận hàng cũng ưng ý, đúng là chị Thu bán hàng chất lượng thật sự rất đáng đồng tiền",
         "Hàng của Thu em nói chứ chất lượng quá tuyệt, mỗi lần nhận được đều vui vì đúng như shop quảng cáo, em sẽ kéo bạn bè ủng hộ chị Thu lâu dài",
         "Đợt em đặt gần 3 triệu tiền hàng mà em không ngờ là sau 5 ngày là có đủ hết cả luôn, hàng đã được miễn ship rồi còn được giao nhanh nữa thì em nói thật khó tìm được shop nào hơn chị Thu",
