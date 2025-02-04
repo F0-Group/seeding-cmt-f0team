@@ -285,14 +285,15 @@ function updateAndCopyComments() {
             .replace(/-đơn vị-/g, newUnit)
             .replace(/-số lượng-/g, quantity);
 
-        // Thay thế icon nếu có
-        if (updatedComment.includes("")) {
+          // Thay thế icon nếu có
+          if (updatedComment.includes("-icon-")) {
             const randomIcon = icons[Math.floor(Math.random() * icons.length)];
-            updatedComment = updatedComment.replace(//g, randomIcon);
+            updatedComment = updatedComment.replace(/-icon-/g, randomIcon);
         }
 
         return updatedComment;
     });
+
 
     // Hiển thị danh sách comment mới
     displayComments();
