@@ -1,6 +1,6 @@
 
 let originalComments = [
-" -mã đơn- -số lượng- -đơn vị-",
+" -mã đơn- -số lượng- -đơn vị- ",
     " -mã đơn- -đơn vị- -số lượng-",
     " -mã đơn- -số lượng- -đơn vị- ",
     " -mã đơn- -số lượng- -đơn vị- ",
